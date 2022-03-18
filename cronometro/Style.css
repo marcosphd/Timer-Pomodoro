@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background:#333853;
+    display: grid;
+    align-items: center;
+}
+
+ul{
+    margin-top: 60px;
+}
+
+li{
+    list-style: none;
+}
+div{
+    gap: 10px;
+}
+
+.countdow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 220px));
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.countdow li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    padding: 1rem;
+    color: #ffffff;
+    background: #727896;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.425);
+    text-align: center;
+  }
+  
+  .countdow li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+  }
+
+  .just{
+      display: flex;
+      justify-content: center;
+  }
+
+  button {
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid #727896;
+    background: #2b304b;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cor{
+      background-color: #727896;
+  }
